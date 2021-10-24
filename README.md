@@ -81,28 +81,34 @@ edu : it's TOP-Level-Domain (TLD)
 it has a Record like shop.shopify.net simply it has record in server named shopify.net with name shop `shop.shopify.net`
 4- MX Record : This kind of Record Resolve The Address of Servers That Have email server for The domain `Facebook.com` Has MX Record (smtpin.vvv.facebook.com) to handle any email.
 5- TXT Record : This Record handle any text data stored as .TXT 
+i thinkg it's simple
 ```
-*i thinkg it's simple*
-
 # 4- Summary
 
 **DNS Request**
-```
-1- You ask For The IP address of any website You Want TO visit such as `github.com`
-2- check your local DNS Cache if The IP Adderss in The DNS Cach if it's in you will redirect to the website if not let's go to the next step 
-3- You Will ask Your ISP DNS this DNS You Can change it to any DNS such as `8.8.8.8 or 8.8.4.4` if the DNS has The IP Address of `github.com` it will get it back to you with the IP Adderss if not . 
-4- your request will be forwarded to The DNS Root Hint This is The Backbone of All DNS Servers it has ALL (TLD) it will look to your request 
+
+*1- You ask For The IP address of any website You Want TO visit such as `github.com`
+
+*2- check your local DNS Cache if The IP Adderss in The DNS Cach if it's in you will redirect to the website if not let's go to the next step 
+
+*3- You Will ask Your ISP DNS this DNS You Can change it to any DNS such as `8.8.8.8 or 8.8.4.4` if the DNS has The IP Address of `github.com` it will get it back to you with the IP Adderss if not . 
+
+*4- your request will be forwarded to The DNS Root Hint This is The Backbone of All DNS Servers it has ALL (TLD) it will look to your request 
 (github.com) he will redirect your request to the .com (TLD) to get the IP Address then the request will go back to you with the IP Address Then your DNS cache Will store This with (TTL) in second if .
-```
 **That's it some useful command about DNS** 
-```
+
 ipconfig /displaydns : to see the DNS Cache and TTL
+
 ipconfig /flushdns
+
 dnslookup : To get information about domain `nslookup google.com`
+
 there is websites you can use such as 
+
 [MXTOOLBOX](https://mxtoolbox.com/).
+
 [dnslookup](https://dnslookup.online/). it can check for the Type of Record
-```
+
 # Scorpion@oPs
 
 
