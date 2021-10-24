@@ -1,25 +1,26 @@
 # 1- What is DNS ?
 ***it's shortcut of Domain Name System***
 
-*it provides a simple way to communicate with devices on the internet without remember the ip address .*
+*it provides a simple way to communicate with devices on the internet without remember the ip address.*
 
-*See The Photo Below*
+*See The Photo Below.*
 
 ![DNS](https://user-images.githubusercontent.com/84593266/138587993-5d4f1790-398d-43a7-a17f-7bc70b362cf3.png)
 
 *You wnat to browse `https://www.google.com` you wrire `google.com` then press Enter then the site will open it's easy for you but the
-process that you can not see is*
+process that you can not see is.*
 ```
-1- You go To The DNS Server 
+1- You go To The DNS Server.
 2- Then The DNS reply with the ip address of google to you Then You Go to google
-this is simple express
+this is simple express.
 ```
 
-*after this process the IP Address of google stored in your DNS Cache try to write in your cmd `ipconfig /displaydns` you will get the DNS cache*
+*after this process the IP Address of google stored in your DNS Cache try to write in your cmd `ipconfig /displaydns` you will get the DNS cache.*
 
-**Simple Scenario**
+***Simple Scenario***
 
-*mike wants to visit`Facebook.com`site 
+```
+mike wants to visit`Facebook.com`site 
 he opened his browser and write `facebook.com`
 The Facebook has responded to his Answer.
 how does this process Work ?
@@ -30,24 +31,27 @@ Then Mike Take The IP and connect to Facebook
 This process in First Time Mike visit The Facebook
 Mike Stored The IP Address in his DNS cache 
 in Second Time Mike Will go To DNS Cache to check To Get The IP Address He Will Not Go Far Again To Ask For The IP Address of Facebook*
+```
 
-*This is Simple express about How DNS works in Your Local PC*
+*This is Simple express about How DNS works in Your Local PC.*
 
 # 2- DNS Hierarchy 
+
 ```
-1- Root Domain
-2- Top-Level-Domains (TLD)
-3- Second-Level-Domaines (SLD)
+1- Root Domain.
+2- Top-Level-Domains (TLD).
+3- Second-Level-Domaines (SLD).
 ```
-*we will Look in DNS in Simple deep we now know how DNS Works in out Computer now lets know about DNS in deep ` DNS Hierarchy`*
+*we will Look in DNS in Simple deep we now know how DNS Works in out Computer now lets know about DNS in deep ` DNS Hierarchy`.*
 
 *it's so easy i will make it very simple do not worry.*
 
 <img width="653" alt="img-1" src="https://user-images.githubusercontent.com/84593266/138589849-c1c134f6-ede0-4621-b2fb-b1a44e78a708.png">
 
-*1- First level (Root) we can say it Root Hint it have all The Domains of DNS*
+*1- First level (Root) we can say it Root Hint it have all The Domains of DNS.*
 
-*2- TOP Level Domain (TLD) i will try to make it very easy. we have*
+*2- TOP Level Domain (TLD) i will try to make it very easy. we have.*
+
 ```
 facebook.com
 google.com
@@ -55,12 +59,16 @@ rasmussen.edu
 NASA.gov
 Army.mil
 ```
-*Simply Look at The Photo Below You Will know What i Mean*
+
+*Simply Look at The Photo Below You Will know What i Mean.*
+
 
 ![what-is-a-domain-name](https://user-images.githubusercontent.com/84593266/138590066-5116688d-d0af-4b6b-a383-de10c5c99d4c.png)
 
-*we will get a website and analysis it Then every point Will be clear To You*
+*we will get a website and analysis it Then every point Will be clear To You.*
+
 `https://www.en.wikiversity.org/wiki/Computer_Networks`
+
 *we will analysis it step by step we all know `https` it's cert for security*
 ```
 www : it's (world wide web)
@@ -95,6 +103,7 @@ i thinkg it's simple
 
 *4- your request will be forwarded to The DNS Root Hint This is The Backbone of All DNS Servers it has ALL (TLD) it will look to your request 
 (github.com) he will redirect your request to the .com (TLD) to get the IP Address then the request will go back to you with the IP Address Then your DNS cache Will store This with (TTL) in second if .
+
 **That's it some useful command about DNS** 
 
 ipconfig /displaydns : to see the DNS Cache and TTL
@@ -109,7 +118,7 @@ there is websites you can use such as
 
 [dnslookup](https://dnslookup.online/). it can check for the Type of Record
 
-# Scorpion@oPs
+ # This Article Written by Scorpion@oPs
 
 
 
